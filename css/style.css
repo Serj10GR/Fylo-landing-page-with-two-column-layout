@@ -369,7 +369,7 @@ section {
     }
 
     .testimonial{
-        max-width: 60%;
+        max-width: 50%;
     }
  /****Section Form*****/
  .section-form, 
@@ -400,6 +400,10 @@ section {
         padding: 1.2em 1em; 
     }
  /****Footer*****/
+ footer  {
+     padding-top: 2em;
+     padding-bottom: 2em;
+ }
     .footer-container-flex {
         font-size: 0.8rem;
         margin-top: 3em;
