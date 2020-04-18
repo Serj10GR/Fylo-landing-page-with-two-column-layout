@@ -290,7 +290,6 @@ footer {
     .container {
         max-width: 1440px;
         margin: 0 auto;
-        padding: 0 2em;
     }
 
     
@@ -362,7 +361,7 @@ section {
         margin-top: 10em;
         align-items: center;
         padding-top: 4em;
-        padding: 4em 6em;
+        padding: 5em 4em;
     }
 
     .section-blue::before {
@@ -372,6 +371,12 @@ section {
     .testimonial{
         max-width: 60%;
     }
+ /****Section Form*****/
+ .section-form, 
+ footer {
+     padding-left: 4em;
+     padding-right: 4em;
+ }
 
     .section-form {
         display: flex;
@@ -394,7 +399,7 @@ section {
         font-size: 0.7rem;
         padding: 1.2em 1em; 
     }
-
+ /****Footer*****/
     .footer-container-flex {
         font-size: 0.8rem;
         margin-top: 3em;
