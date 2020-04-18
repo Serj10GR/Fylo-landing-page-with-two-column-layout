@@ -10,6 +10,7 @@
 }
 
 body {
+    padding-top: 1.5em;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -287,7 +288,7 @@ footer {
 @media (min-width: 545px) {
 
     .container {
-        max-width: 1300px;
+        max-width: 1440px;
         margin: 0 auto;
         padding: 0 2em;
     }
@@ -295,11 +296,11 @@ footer {
     
     /****Typo****/
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     line-height: 1.6;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 section {
@@ -314,7 +315,7 @@ section {
 
 .text{
     font-size: 0.9rem;
-    color: var(--clr-Desaturated-Blue);
+    color: var(--clr-Very-Dark-Blue);
 }
 
     /****Header*****/
@@ -364,6 +365,7 @@ section {
     .section-blue {
         margin-top: 10em;
         align-items: center;
+        padding-bottom: 5em;
     }
 
     .section-blue::before {
