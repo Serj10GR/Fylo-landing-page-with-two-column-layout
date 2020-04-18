@@ -228,6 +228,10 @@ Section form
     padding: 0.8em 1em;
 }
 
+.section-form input::placeholder {
+    color: var(--clr-Neutral-Light-Gray);
+}
+
 /*=================
 Footer
 =================*/
@@ -391,6 +395,7 @@ section {
 
     .form-botttom {
         margin-top: 2em;
+        font-size: 1rem;
     }
    
     .section-form .btn-accent{
